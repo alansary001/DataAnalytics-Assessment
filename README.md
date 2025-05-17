@@ -67,12 +67,6 @@ CLV = \left(\frac{\text{total_transactions}}{\text{tenure_months}}\right) \times
 
 ---
 
-## 🔍 Challenges
-
-- Some assumptions about schema (like date fields and identifiers) were made due to the SQL dump format.
-- Handling zero-tenure edge cases to avoid division by zero.
-- Ensuring proper unit conversions from kobo to Naira.
-
 ---
 
 ## 📝 Notes
